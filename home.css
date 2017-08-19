@@ -1,15 +1,15 @@
 body {
-  background-image: url("dopebackground3.png");
+  background-image: url('dopescene.png');
   margin: 0;
 }
 .logo {
-  width: 72px;
-  length: 72px;
+  width: 90px;
+  length: 90px;
 }
 #last {
   border: none;
   padding: 0;
-  margin-right: 90%;
+  margin-right: 95%;
   margin-top: 0;
 }
 #other {
@@ -32,7 +32,6 @@ body {
   margin-right: 5%;
   margin-top: 40px;
   padding: 10px;
-  font-
 }
 .nav a:link, a:visited, a:hover, a:active {
   color: white;
@@ -40,33 +39,65 @@ body {
 }
 .nav li:hover {
   color: black;
-
 }
 .motto {
-  font-family: 'Advent Pro';
-  font-size: 40px;
   text-align: center;
+  font-size: 50px;
+  font-family: 'Saira Semi Condensed';
+  width: 60%;
   color: white;
+  margin-left: 20%;
+}
+.saying {
+  text-align: center;
+  font-family: 'Permanent Marker';
+  color: white;
+  position: relative;
+  bottom: 30px;
+  font-size: 27px;
 }
 /* Start of About ME*/
 .AboutMe {
   width: 100%;
-  height: 400px;
+  height: 385px;
   background-color: white;
+  display: block;
+  overflow: hidden;
 }
 #title {
   font-family: 'Lato';
   text-align: center;
-  font-size: 25px;
-  position: relative;
-  top: 40px;
+  font-size: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
-.abtp {
+#abtp {
   font-family: 'Exo 2';
   font-size: 20px;
   font-weight: 400;
   text-align: center;
+  line-height: 1.4em;
   width: 50%;
+  margin-top:3%;
   margin-left: 25%;
-  margin-top: 3%;
+}
+/* Start of My Goal */
+.MyPlan {
+  width: 100%;
+  height: 620px;
+  background-color: #C0C0C0;
+  margin: 0;
+  display: block;
+  overflow: hidden;
+}
+#title2{
+  margin: 4% 0 2% 5%;
+  font-family: 'Lato';
+  font-size: 20px;
+}
+#mgp{
+  margin: 0 50% 0 5%;
+  font-family: 'Exo 2';
+  font-size: 20px;
+  line-height: 1.4em;
 }
