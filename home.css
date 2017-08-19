@@ -38,7 +38,7 @@ body {
   text-decoration: none;
 }
 .nav li:hover {
-  color: black;
+  color: grey;
 }
 .motto {
   text-align: center;
