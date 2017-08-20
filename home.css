@@ -100,3 +100,14 @@ body {
   font-size: 20px;
   line-height: 1.4em;
 }
+#mpvid {
+  float: right;
+  clear: none;
+  display: inline-block;
+  margin-right: 3%;
+}
+#vid {
+  border: 8px solid black;
+  border-bottom: none;
+  border-radius: 5px;
+}
