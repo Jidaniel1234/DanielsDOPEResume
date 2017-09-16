@@ -1,5 +1,5 @@
 body {
-  background-image: url('dopescene.png');
+  background: url('dopescene.png') fixed;
   margin: 0;
 }
 .logo {
@@ -96,9 +96,6 @@ body {
 #vid {
   float: right;
   clear: none;
-  border: 12px solid black;
-  border-radius: 8px;
-  border-bottom: none;
   margin-right: 3%;
   margin-top: 6%;
 }
